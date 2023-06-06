@@ -1,0 +1,146 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4e9dc;
+}
+
+header {
+    margin-left: 7%;
+    width: 86%;
+    margin-top: 30px;
+    border-top: 3px solid #494949;
+    border-bottom: 2px solid #494949;
+}
+
+h1 {
+    color: #494949;
+}
+
+h2 {
+    color: #494949;
+}
+
+h3 {
+    color: #494949;
+}
+
+p {
+    color: #494949;
+}
+
+.bollRed {
+    width: 90%;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #e85e56;
+    z-index: -9999999;
+    position: fixed;
+    display: flex;
+}
+
+.bollBorderRed {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #f4e9dc;
+    position: fixed;
+    display: flex;
+}
+
+.bollBorderWhite {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #e85e56;
+    position: fixed;
+    display: flex;
+    z-index: -9;
+}
+
+#ball1 {
+    top: -50px;
+    right: -170px;
+}
+
+#ball2 {
+    top: 170px;
+    right: -60px;
+}
+
+#ball3 {
+    top: 100px;
+    left: 80px;
+}
+
+#img1 {
+    display: flex;
+    position: fixed;
+    width: 150px;
+    border-radius: 50%;
+    top: 320px;
+    right: 170px;
+}
+
+#img2 {
+    display: flex;
+    position: fixed;
+    width: 70px;
+    border-radius: 50%;
+    top: 200px;
+    right: 280px;
+}
+
+#ball4 {
+    bottom: -230px;
+    left: -210px;
+}
+
+#ball5 {
+    bottom: 90px;
+    left: -100px;
+}
+
+#ball6 {
+    bottom: -230px;
+    left: 0;
+}
+
+main {
+    position: fixed;
+    display: flex;
+    bottom: 17%;
+    border-top: 2px solid #494949;
+    width: 86%;
+    left: 7%;
+}
+
+main div h2 {
+    margin-top: -22px;
+}
+
+main div p {
+    width: 80%;
+}
+
+div a {
+    position: fixed;
+    bottom: 0;
+    width: 80px;
+    right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover p{
+    color: #e85e56;
+}
+
+a p {
+    margin-top: -10px;
+}
