@@ -1,0 +1,165 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4e9dc;
+}
+
+header {
+    margin-left: 7%;
+    width: 86%;
+    margin-top: 30px;
+    border-top: 3px solid #494949;
+    border-bottom: 2px solid #494949;
+}
+
+h1 {
+    color: #f4e9dc;
+}
+
+h2 {
+    color: #f4e9dc;
+}
+
+h3 {
+    color: #f4e9dc;
+}
+
+p {
+    color: #f4e9dc;
+}
+
+.bollRed {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #e85e56;
+    z-index: -9999999;
+    position: fixed;
+    display: flex;
+}
+
+.bollBorderRed {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #f4e9dc;
+    position: fixed;
+    display: flex;
+}
+
+.bollBorderWhite {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #e85e56;
+    position: fixed;
+    display: flex;
+    z-index: -9;
+}
+
+#ball1 {
+    top: 80px;
+    left: -140px;
+}
+
+#ball2 {
+    top: 330px;
+    left: 60px;
+}
+
+#ball3 {
+    top: 70px;
+    left: 30px;
+}
+
+#img1 {
+    display: flex;
+    position: fixed;
+    width: 150px;
+    border-radius: 50%;
+    bottom: -70px;
+    left: -10px;
+    z-index: 9999;
+}
+
+#ball4 {
+    display: none;
+    bottom: -230px;
+    left: -210px;
+}
+
+#ball5 {
+    display: none;
+    bottom: 90px;
+    left: -100px;
+}
+
+#ball6 {
+    display: none;
+    bottom: -230px;
+    left: 0;
+}
+
+main {
+    background-color: #494949;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    height: 55%;
+    border-radius: 50px;
+    width: 90%;
+    left: 5%;
+}
+
+main div {
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+main div h2 {
+    margin-top: -22px;
+}
+
+div a {
+    position: fixed;
+    bottom: 0;
+    width: 80px;
+    right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    margin-top: -20px;
+    width: 30px;
+}
+
+#day {
+    margin-left: 55px;
+    margin-top: -30px;
+    color: #494949;
+    font-size: 6rem;
+}
+
+#mes {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    margin-left: 65px;
+}
+
+#dev {
+    width: 70%;
+    position: fixed;
+    display: flex;
+    top: 200px;
+    right: -60px;
+}
